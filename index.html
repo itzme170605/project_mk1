@@ -29,5 +29,13 @@
       <br />
       <br />
     </section>
+    <script>
+      window.addEventListener('scroll', () => {
+          const scrollTop = window.scrollY || window.pageYOffset;
+          const scrollHeight = document.body.scrollHeight;
+          const lightness = 1 - Math.pow(scrollTop / scrollHeight, 0.5);
+          document.body.style.backgroundColor = `rgb(${255 - 255 * lightness}, ${255 - 255 * lightness}, ${255 - 255 * lightness})`;
+      });
+    </script>
   </body>
 </html>
