@@ -5,8 +5,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background: #1f242d;
-  color: #eee4e4;
+  background: rgb(41, 44, 52);
+  color: rgb(231, 239, 241);
 }
 .header {
   position: fixed;
