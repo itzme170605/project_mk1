@@ -67,9 +67,17 @@ body {
 }
 
 .home-content {
-  max-width: 600px;
+  position: relative;
 }
-
+#myImage {
+  position: absolute;
+  top: -50%;
+  left: 200%;
+  width: 200%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
 .home-content h3 {
   font-size: 32px;
   font-weight: 700;
